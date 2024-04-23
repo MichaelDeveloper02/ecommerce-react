@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Variables */
+
+:root{
+    --primary-color: #252B42;
+    --background-color: #FAFAFA;
+    --secundary-color: #CECECE;
+    --background-form: #F9F9F9;
+
+    --font-text: 16px;
+    --font-text-2: 20px;
+    --font-h2: 35px;
+    --font-h1: 55px
+}
+

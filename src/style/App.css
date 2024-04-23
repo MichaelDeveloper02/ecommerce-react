@@ -1,0 +1,29 @@
+/* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .navlist-container{
+    min-width: 20%;    
+} */
+
+.navlist-container ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navlist-container ul li{
+    margin: 0 20px;
+}
+
+.account-container{
+    display: flex;
+}
+
+.account-container .account-icon{
+    margin-left: 20px;
+}
