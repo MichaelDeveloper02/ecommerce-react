@@ -26,3 +26,15 @@ body {
     --font-h1: 55px
 }
 
+
+section,nav {
+    padding: 30px 10% 10px;
+}
+
+@media (max-width: 1380px) {
+    section, nav {
+        padding: 30px 3% 10px;
+    }
+}
+
+

@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
     <nav>
-        <div className='Logo'>
+        <div className='logo'>
             <span>Ecommerce</span>
         </div>
 
@@ -14,20 +14,20 @@ function Navbar() {
                     <a href="">Home</a>
                 </li>
                 <li>
-                    <a href="">Home</a>
+                    <a href="">Tienda</a>
                 </li>
                 <li>
-                    <a href="">Home</a>
+                    <a href="">About</a>
                 </li>
                 <li>
-                    <a href="">Home</a>
+                    <a href="">Contact</a>
                 </li>
             </ul>
         </div>
 
         <div className='account-container'>
-            <div>
-                <span>*</span>
+            <div className='cart-shopping'>
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
             </div>
             <div className='account-icon'>
                 <span><i class="fa-solid fa-user"></i></span>
