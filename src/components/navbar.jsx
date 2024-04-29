@@ -5,7 +5,7 @@ function Navbar() {
     <>
     <nav>
         <div className='logo'>
-            <span>Ecommerce</span>
+            <span>E-commerce</span>
         </div>
 
         <div className='navlist-container'>

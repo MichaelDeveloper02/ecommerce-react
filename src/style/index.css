@@ -27,12 +27,12 @@ body {
 }
 
 
-section,nav {
+section,nav, .hero-container {
     padding: 30px 10% 10px;
 }
 
 @media (max-width: 1380px) {
-    section, nav {
+    section, nav, .hero-container {
         padding: 30px 3% 10px;
     }
 }
