@@ -22,11 +22,11 @@ function Card() {
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
-            <div className='card-item'>
+            <div className='card-item card-item-last'>
                 <div className='card-icon'>
                     <span><i class="fa-solid fa-phone"></i></span>
                 </div>
-                <div className='card-text'>
+                <div className='card-text '>
                     <h3 className='card-tittle'>tittle</h3>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>

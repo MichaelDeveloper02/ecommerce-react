@@ -4,8 +4,9 @@ import {Helmet} from "react-helmet";
 
 // Components
 import Hero from "./components/Hero";
-import Navbar from "./components/navbar";
 import Card from "./components/Card";
+import Categories from "./components/Categories";
+import HomeStore from "./components/homeStore";
 
 const App = ()=> {
 
@@ -17,9 +18,10 @@ const App = ()=> {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
         <title>E-commerce</title>
       </Helmet>
-      {/* <Navbar/> */}
       <Hero/>
       <Card/>
+      <Categories/>
+      <HomeStore/>
     </>
   )
 }
